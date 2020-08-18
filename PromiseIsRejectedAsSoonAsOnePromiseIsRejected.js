@@ -55,3 +55,13 @@ res
    console.log('Race winner reject!!!!', err);
    console.log( '$promise.all$, total time is: ', Date.now() - iniTime + ' ms')
 })
+
+/**
+ * Sample Output:
+ * 
+ *Entering for def2
+  Race winner reject!!!! def2 rejected!!!
+  $promise.all$, total time is:  2018 ms
+  Entering for def1
+ * 
+ */
